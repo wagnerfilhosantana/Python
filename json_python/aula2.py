@@ -6,9 +6,14 @@ jogador_json = json.loads(jogador)
 
 print(jogador_json["Aeronaves"])
 
-element = jogador[str("Aeronaves")]
+print('-'*50)
 
-print(element["tipo"])
+print(jogador_json['Aeronaves'][2]['tipo'])
+
+print('-'*50)
 
 for a in jogador_json["Aeronaves"]:
     print(a)
+    print('-'*50)
+
+print(jogador_json['Mochila'][2])
