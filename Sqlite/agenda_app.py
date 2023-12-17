@@ -8,7 +8,6 @@ def ConnectionBase():
         connection = sqlite3.connect(caminho)
     except Error as ex:
         print(ex)
-    
     return connection
 
 vconnection = ConnectionBase()
@@ -96,6 +95,7 @@ def SelectHomeID():
             os.system("PAUSE")
             os.system('cls')
     print('Fim da lista!')
+    os.system('PAUSE')
 
 def SelectHomename():
 
@@ -113,7 +113,7 @@ def SelectHomename():
             os.system("PAUSE")
             os.system('cls')
     print('Fim da lista!')
-    
+    os.sytem('PAUSE')
 
 opcion = 0
 while opcion != 6:
