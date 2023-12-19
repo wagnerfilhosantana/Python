@@ -1,5 +1,4 @@
 from tkinter import *
-import os
 import Banco
 import sqlite3
 from sqlite3 import Error

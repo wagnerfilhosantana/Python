@@ -1,6 +1,6 @@
 import sqlite3
 from sqlite3 import Error
-import os
+
 
 def ConnectionBase():
     caminho = 'C:\\Users\\wagne\\OneDrive\\Documentos\\GitHub\\Python\\Banco de Dados\\agenda.db'
